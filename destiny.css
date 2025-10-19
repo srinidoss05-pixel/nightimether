@@ -1,0 +1,328 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+     font-family: "Caveat", cursive;
+     background-image:url("ChatGPT Image Oct 18, 2025, 10_55_41 AM.png");
+     
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; /* optional: keeps image still when scrolling */
+  height: 90vh; /* ensures body covers full viewport height */
+  color: whitesmoke;
+  font-size: x-large;
+     
+}
+nav{
+
+    background-color: black;
+    color: azure;
+   
+}
+li{
+    padding: 10px;
+}
+h1{
+    margin-left: 10%;
+    text-shadow: 2px 2px 5px gray;
+}
+ul{
+    margin-left: 20%;
+    padding: 10px;
+}
+
+h1,ul,li{
+    display: inline;
+}
+a{
+    color:azure;
+}
+h1:hover{
+    color: magenta;
+}
+/* ...existing code... */
+
+/* Make nav position relative so absolute children work */
+nav {
+    position: relative;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+}
+
+/* Moon styling */
+.moon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle at 15px 15px, #fffbe6 70%, #f5e9c6 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #fffbe6;
+    animation: floatMoon 4s ease-in-out infinite;
+    z-index: 10;
+}
+
+/* Star styling */
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 2px #fff;
+    z-index: 10;
+}
+
+.star1 {
+    top: 8px;
+    left: 80px;
+    width: 8px;
+    height: 8px;
+    animation: floatStar1 3s linear infinite;
+}
+
+.star2 {
+    top: 30px;
+    left: 160px;
+    width: 6px;
+    height: 6px;
+    animation: floatStar2 2.5s linear infinite;
+}
+
+.star3 {
+    top: 18px;
+    left: 240px;
+    width: 10px;
+    height: 10px;
+    animation: floatStar3 3.5s linear infinite;
+}
+
+/* Animations */
+@keyframes floatMoon {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes floatStar1 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+@keyframes floatStar2 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes floatStar3 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* ...existing code... */
+
+
+
+.box-2{
+margin-top: 20px;
+
+
+}
+a{
+color: blue;
+
+}
+.box-2{
+
+padding: 5px;
+border-radius: 20px;
+
+
+
+}
+
+.box-2{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 190px 190px;
+    gap:10px;
+}
+.box-3{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 190px 190px;
+    gap:5px;
+}
+
+
+
+.angel{
+
+  margin-left: 30%;
+  margin-bottom: 35%;
+  display: none;
+}
+
+
+.sidebar-1{
+
+margin-top: 0;
+
+}
+
+
+
+/* === Responsive Settings for Mobile === */
+@media (max-width: 768px) {
+
+  /* Keep the same desktop layout but scale content slightly */
+  body {
+    font-size: large; /* slightly smaller text for smaller screens */
+    overflow-x: auto; /* allow horizontal scroll if needed */
+  }
+
+  nav {
+    padding:20px;
+    
+  }
+
+  h1 {
+    font-size: 1.0rem;
+    margin-left:10%;
+    margin-top:10px;
+  }
+
+  ul {
+    margin-left:20%;
+  }
+  
+  li {
+    padding:2px;
+   
+  }
+
+  /* Keep moon and stars visible, but reduce size */
+  .moon {
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    left: 10px;
+  }
+
+  .star1, .star2, .star3 {
+    transform: scale(0.8);
+  }
+
+  /* Adjust grid to fit smaller screens but keep side-by-side layout */
+  .box-2, .box-3 {
+    grid-template-columns: 1fr 3fr; /* same as desktop */
+    grid-template-rows:500px 300px;
+    gap: 8px;
+  }
+
+  .box-2, .box-3 {
+    padding: 4px;
+    border-radius: 15px;
+  }
+
+  /* Optional: allow zooming/panning if content overflows */
+  html, body {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

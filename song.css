@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: "Caveat", cursive;
+  background-image:url("evgeni-tcherkasski-hegb9Y8dKos-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; /* optional: keeps image still when scrolling */
+  height: 90vh; /* ensures body covers full viewport height */
+     color: #fff;
+     font-size:25px;
+
+
+}
+.navbar{
+
+color:white;
+padding: 20px;
+text-align: center;
+
+
+}
+
+h3{
+    text-decoration-style: wavy;
+
+}
+.container{
+    margin-left: 180px;
+width: 1000px;
+height:1000px;
+padding: 60px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.child-1{
+    flex-basis: 150px;
+    width:auto;
+    height: 100px;
+   
+}
+.child{
+
+padding: 10px;
+width: 300px;
+border-radius: 50px;
+outline: none;
+
+
+}
+
+
+.song-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+
+
+
+
+
+/* === Responsive Design for Mobile Devices === */
+@media (max-width: 1024px) {
+  body {
+    font-size: 20px;
+    background-attachment: scroll; /* improve performance on mobile */
+    height: auto;
+  }
+
+  .navbar {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+  }
+
+  .child, .child-1 {
+    width: 90%; /* make boxes fit smaller screens */
+    margin-bottom: 20px;
+    padding: 15px;
+    flex-basis: auto;
+  }
+
+  .song-title {
+    font-size: 1.2em;
+  }
+}
+
+/* === Extra small screens (phones under 600px) === */
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .navbar {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .child, .child-1 {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .song-title {
+    font-size: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
