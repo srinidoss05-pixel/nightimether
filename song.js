@@ -12,6 +12,22 @@ document.querySelectorAll('audio').forEach(function(audio) {
 });
 
 
+document.getElementById("My Kannazhagiii").addEventListener('play',function(){
+
+alert(`sri: Uyirae uyirae unaivida edhuvum
+Uyril peridhaai illayadi
+Azhagae azhagae unaivida edhuvum
+Azhagil azhagaai illaiyadi💗🫴`);
+
+});
+
+document.getElementById("Nee_Partha_Vizhigal").addEventListener('play',function(){
+
+alert('sri: Nijamadi pennae tholaivinil unnai\nNilavinil kanden nadamaada\nValiyadi pennae varaimurai illai\nVadhaikkiraai ennai medhuvaaga');
+
+
+});
+
 document.getElementById("thoseeyes").addEventListener('play',function(){
 
 alert('Hey!narmu you have a hypnotising brown eyes👁️🫣');
@@ -39,6 +55,11 @@ alert(' Sri: Unnoda konja neram Naanum konja venum ☺️');
 });
 
 
+document.getElementById("untilifoundher").addEventListener('play',function(){
+alert(' Sri:i wanna be yours💗🫴 ');
+
+
+});
 
 
 
