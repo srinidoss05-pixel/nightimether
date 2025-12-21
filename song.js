@@ -12,7 +12,7 @@ document.querySelectorAll('audio').forEach(function(audio) {
 });
 
 
-document.getElementById("My Kannazhagiii").addEventListener('play',function(){
+document.getElementById("MyKannazhagiii").addEventListener('play',function(){
 
 alert(`sri: Uyirae uyirae unaivida edhuvum
 Uyril peridhaai illayadi
@@ -21,7 +21,7 @@ Azhagil azhagaai illaiyadi💗🫴`);
 
 });
 
-document.getElementById("Nee_Partha_Vizhigal").addEventListener('play',function(){
+document.getElementById("NeeParthaVizhigal").addEventListener('play',function(){
 
 alert('sri: Nijamadi pennae tholaivinil unnai\nNilavinil kanden nadamaada\nValiyadi pennae varaimurai illai\nVadhaikkiraai ennai medhuvaaga');
 
@@ -55,7 +55,7 @@ alert(' Sri: Unnoda konja neram Naanum konja venum ☺️');
 });
 
 
-document.getElementById("untilifoundher").addEventListener('play',function(){
+document.getElementById("iwannabeyours").addEventListener('play',function(){
 alert(' Sri:i wanna be yours💗🫴 ');
 
 
