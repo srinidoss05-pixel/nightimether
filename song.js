@@ -49,7 +49,7 @@ alert(' Sri:my love will always stay by you ☺️');
 });
 
 document.getElementById("vizhiveekura").addEventListener('play',function(){
-alert(' Sri: Unnoda konja neram Naanum konja venum ☺️');
+alert(' Sri: Unnoda konja neram unna Naanum konja venum ☺️');
 
 
 });
