@@ -1,7 +1,7 @@
 
 
 // This code ensures only one audio element plays at a time.
-// When any audio starts playing, it pauses all other audio elements.
+// When; any audio starts playing, it pauses all other audio elements.
 
 document.querySelectorAll('audio').forEach(function(audio) {
     audio.addEventListener('play', function() {
@@ -12,48 +12,53 @@ document.querySelectorAll('audio').forEach(function(audio) {
 });
 
 
-document.getElementById("MyKannazhagiii").onclick=function(){
+const audio = document.getElementById("MyKannazhagiii");
+const popup = document.getElementById("popup");
+const closeBtn = document.getElementById("closePopup");
 
-alert(`sri: Uyirae uyirae unaivida edhuvum
-Uyril peridhaai illayadi
-Azhagae azhagae unaivida edhuvum
-Azhagil azhagaai illaiyadi💗🫴`)};
+audio.addEventListener("play", function () {
+    popup.style.display = "flex";
+});
 
-document.getElementById("NeeParthaVizhigal").onclick=function(){
+closeBtn.addEventListener("click", function () {
+    popup.style.display = "none";
+});
 
-alert('sri: Nijamadi pennae tholaivinil unnai\nNilavinil kanden nadamaada\nValiyadi pennae varaimurai illai\nVadhaikkiraai ennai medhuvaaga');
+document.getElementById("NeeParthaVizhigal").onplay=function(){
 
-
-};
-
-document.getElementById("thoseeyes").onclick=function(){
-
-alert('Hey!narmu you have a hypnotising brown eyes👁️🫣');
+alert('sri: Nijamadi pennae tholaivinil unnai\nNilavinil kanden nadamaada\nValiyadi pennae varaimurai illai\nVadhaikkiraai ennai medhuvaaga')
 
 
 };
 
+document.getElementById("thoseeyes").onplay=function(){
 
-document.getElementById("smile").onclick=function()
+alert('Hey!narmu you have a hypnotising brown eyes👁️🫣')
+
+
+};
+
+
+document.getElementById("smile").onplay=function()
 {
-    alert("Hey! papi your the reason for my smiile 😁");
+    alert("Hey! papi your the reason for my smiile 😁")
 };
 
-document.getElementById("blue").onclick=function(){
+document.getElementById("blue").onplay=function(){
 
-alert(' Sri:my love will always stay by you ☺️');
+alert(' Sri:my love will always stay by you ☺️')
+
+
+}
+
+document.getElementById("vizhiveekura").onplay=function(){
+alert(' Sri: Unnoda konja neram unna Naanum konja venum ☺️')
 
 
 };
 
-document.getElementById("vizhiveekura").onclick=function(){
-alert(' Sri: Unnoda konja neram unna Naanum konja venum ☺️');
-
-
-};
-
-document.getElementById("iwannabeyours").onclick=function(){
-alert(' Sri:i wanna be yours💗🫴 ');
+document.getElementById("iwannabeyours").onplay=function(){
+alert(' Sri:i wanna be yours💗🫴 ')
 
 
 };
